@@ -1,0 +1,136 @@
+p{
+  font-family: "Exo 2";
+}
+.container-top{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 400px 400px;
+  column-gap: 20px;
+  margin-top: 30px;
+}
+
+.title-box{
+  width: 300px;
+  margin-bottom: -10px;
+}
+.title{
+  color: hsl(300, 43%, 22%);
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.title-text{
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.container2{
+  margin-left: -20px;
+}
+
+.stars1,
+.stars2,
+.stars3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(300, 24%, 96%);
+  height: 40px;
+  width: 330px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  color: hsl(300, 43%, 22%);
+}
+
+.stars1{
+  margin-top: 60px;
+}
+
+.stars2{
+  margin-left: 40px;
+}
+.stars3{
+  margin-left: 80px;
+  width: 340px;
+}
+
+.star-icon{
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+
+.rating-text{
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 20px;
+
+}
+
+
+.container-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 300px;
+  width: 820px;
+  justify-self: center;
+}
+
+.box1,
+.box2,
+.box3{
+  background-color: hsl(300, 43%, 22%);
+  height: 180px;
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.profile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.profile-image{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.name{
+  font-family: "Exo 2";
+  font-weight: bold;
+  color: hsl(300, 24%, 96%);
+}
+
+.buyer{
+  color: hsl(333, 80%, 67%);
+  font-family: "Exo 2";
+  font-size: 13px;
+}
+
+.comment-box{
+  margin-left: 15px;
+  width: 220px;
+}
+
+.comment{
+  color: hsl(300, 24%, 96%);
+  font-size: 12px;
+}
+
+.box2{
+  margin-top: 50px;
+}
+
+.box3{
+  margin-top: 70px;
+}
